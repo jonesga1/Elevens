@@ -34,9 +34,7 @@ public class Deck {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
 		for (int i = 0; i < ranks.length; i++) {
 			for (int j = 0; j < suits.length; j++) {
-				for (int k = 0; k < values.length; k++) {
-					this.cards.add(new Card(ranks[i], suits[j], values[k]));
-				}
+				this.cards.add(new Card(ranks[i], suits[j], values[i]));
 			}
 		}
 		this.size = cards.size();
